@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecole Interne | Version 0.2</title>
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="style_dashboard.css">
+</head>
+<body>
+<div class="main">
+<div class="side">
+    <div class="sidelogo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/2048px-Orange_logo.svg.png">
+    </div> 
+ 
+<div class="menu">
+<ul>
+    <li>Accueil</li>
+    <li>Utilisateur</li>
+    <li>Cohorte</li>
+    <li>Administration</li>
+</ul>
+</div>
+
+<div class="profil">
+    <ul>
+        <li>Profil</li>
+        <li>Paramètres</li>
+    </ul>
+    
+    </div>
+
+</div>
+
+<!--TOPBAR-->
+<div class="topbar"><div class="titreTopBar">ACCUEIL</div></div>
+
+<!-- SECTION ACCUEIL-->
+
+<div class="accueil">
+    <div class="items">
+    <div class="accueilCreate">
+        <p class="accueilTitre">Créer un nouveau apprenant</p>
+        <form id="formItem">
+            <input type="text" id="fname" name="fname" placeholder="Julie" required class="inputform">
+            <input type="text" id="lname" name="lname" placeholder="Nom" required class="inputform">
+            <input type="submit" value="Créer" id="buttonCo">
+        </form>
+    </div>
+    <div class="accueilCreate">
+        <p class="accueilTitre">Créer un nouveau formateur</p>
+        <form id="formItem2">
+            <input type="text" id="fname" name="fname" placeholder="Prénom" required class="inputform">
+            <input type="text" id="lname" name="lname" placeholder="Nom" required class="inputform">
+            <input type="submit" value="Créer" id="buttonCo">
+        </form>
+    </div>
+    <div class="accueilCreate">
+        <p class="accueilTitre">Créer un nouveau administrateur</p>
+        <form id="formItem">
+            <input type="text" id="fname" name="fname" placeholder="Prénom" required class="inputform">
+            <input type="text" id="lname" name="lname" placeholder="Nom" required class="inputform">
+          <input type="submit" value="Créer" id="buttonCo">
+        </form>
+    </div>
+
+</div>
+<div class="item">
+
+    <div class="accueilListUser">
+        <p class="accueilTitre"> Liste des utilisateurs</p>
+        <div class="itemUser"></div>
+    </div>
+
+</div>
+
+</div> 
+</div>
+    
+
+</body>
+</html> 

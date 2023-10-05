@@ -1,0 +1,24 @@
+REQUETE PARAM
+
+PUT http://localhost:8080/user/2/role?role=learner
+
+cohorte - modele json : 
+{
+ 	"name": "Promo8",
+	"formations": [{
+		"name":"Web",
+		"courses":[{
+			"name" :"HTML",
+			"sessions":[{
+				"datedebut" : "17/12/2023",
+				"datefin" : "17/12/2023"
+			}]
+			
+		}]
+	}]
+}
+
+
+user - modele json:
+{"username":"test",
+  "password":"password"}
